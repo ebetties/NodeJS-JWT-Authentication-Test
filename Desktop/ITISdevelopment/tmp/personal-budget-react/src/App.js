@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 
 import {
   BrowserRouter as Router,
@@ -26,7 +26,7 @@ function App() {
         <Route path="/about" element= {<AboutPage/>}/>
         <Route path="/login" element= {<LoginPage/>}/>
         <Route path="/" element= {<Homepage/>}/>
-          
+      
       </Routes>
 
       </div>
@@ -34,6 +34,10 @@ function App() {
       <Footer/>
     </Router>
     </div>
+
+  
+
+    
   );
 }
 
